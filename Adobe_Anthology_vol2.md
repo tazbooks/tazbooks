@@ -7,6 +7,7 @@ AdobeCCアンソロジー2「作業効率編」 暫定サポートページに�
 
 | ページ | 誤 | 正 |
 | - |-|-|
+|P.6、10|Illustrator|InDesign|
 |P.47|Illustrator|InDesign|
 |P.50、55、56、57、58、59|それぞれソースコード末尾の ` ); ` の文字色が白|それぞれソースコード末尾の ` ); ` の文字色を黒に変更・スクリーンショットで対応|
 |p66|https://uske-s.booth.pm/items/1304509|https://uske-s.booth.pm/items/1320744|
