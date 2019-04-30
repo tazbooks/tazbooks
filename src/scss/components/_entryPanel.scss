@@ -1,0 +1,23 @@
+.EntryPanel {
+ display: flex;
+ align-items: center; 
+ 
+ &__main {
+   display: flex;
+   justify-content: space-between;
+   align-self: stretch;
+   flex: 1 1 55%;
+   flex-direction: column;
+   padding: 20px 0;
+ }
+
+ &__head {
+   font-weight: bold;
+   font-size: 16px;
+ }
+
+ &__foot {
+   font-size: 10px;
+   text-align: right;
+ }
+}
