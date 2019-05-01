@@ -1,7 +1,7 @@
 .EntryPanel {
  display: flex;
  align-items: center; 
- 
+
  &__main {
    display: flex;
    justify-content: space-between;
@@ -9,6 +9,32 @@
    flex: 1 1 55%;
    flex-direction: column;
    padding: 20px 0;
+ }
+
+ &__sub {
+  flex: 1 1 45%;
+  margin-right: 20px;
+ }
+
+ &__thumb {
+   position: relative;
+   flex: 1 1 45%;
+   padding-top: 40.5%;
+   overflow: hidden; //はみ出しをクリップ
+   margin-right: $space-unit;
+ }
+
+ &__img {
+   position: absolute;
+   top: 50%;
+   left:50%;
+   transform: translate(-50%, -50%); //自分自身の縦横50%戻す
+   width: auto;
+   height: auto;
+   max-width: 150%; //画像最大サイズはフレームの150%
+   max-height: 150%;
+   min-width: 100%; //フレームより小さい場合は100%
+   min-height: 100%;
  }
 
  &__head {
