@@ -1,0 +1,11 @@
+@charset 'utf-8';
+@import "./base/variables";
+@import "./base/reset";
+@import "./components/header";
+@import "./components/menu";
+@import "./components/entryPanel";
+@import "./components/parts/button";
+
+p {
+  color: red;
+}
